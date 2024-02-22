@@ -1,7 +1,7 @@
-dev:
-  replicaCount: 1
-  configMapName: env-config
-  configMapKey: ENV_NAME
+replicaCount: 1
+
+
+configMapName: env-config
 
 image:
   repository: a2barros78
