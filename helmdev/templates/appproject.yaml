@@ -7,7 +7,7 @@ spec:
   description: iaac
   destinations:
     - name: in-cluster
-      namespace: a2b78
+      namespace: mathieu-argo
       server: 'https://kubernetes.default.svc'
   sourceRepos:
     - 'git@github.com:A2B78/helm-argo-dev.git'
