@@ -5,6 +5,8 @@ service:
   type: ClusterIP
   port: 80
 
+configMap: dev-env-config
+
 ingress:
   enabled: false
 
