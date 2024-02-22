@@ -1,5 +1,4 @@
 dev:
   replicaCount: 1
   configMapName: dev-env-config
-data:
-  key: "dev"
+  configMapKey: "development"
