@@ -1,4 +1,0 @@
-replicaCount: 1
-
-configMapName: dev-env-config
-configMapKey: ENV_NAME
