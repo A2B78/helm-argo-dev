@@ -12,7 +12,7 @@ spec:
     targetRevision: HEAD
     helm:
       valueFiles:
-        - values.yaml
+        - templates/*.yaml
   sources: []
   project: adolfo-dev
   syncPolicy:
