@@ -1,6 +1,6 @@
 dev:
   replicaCount: 1
-  configMapName: dev-env-config
+  configMapName: env-config
   configMapKey: ENV_NAME
 
 image:
