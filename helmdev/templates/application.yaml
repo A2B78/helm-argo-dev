@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: {{.Chart.Name }}
+  name: adolfo-prime
   namespace: mathieu-argo
 spec:
   destination:
     namespace: a2b78
     server: https://kubernetes.default.svc
-  project: adolfo-dev
+  project: adolfo-env
   source:
     helm:
       valueFiles:
