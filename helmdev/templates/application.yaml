@@ -5,6 +5,7 @@ metadata:
 spec:
   destination:
     name: in-cluster
+    namespace: a2b78
     server: 'https://kubernetes.default.svc'
   source:
     path: helmchart
