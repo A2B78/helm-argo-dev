@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
-  name: adolfo-prod
+  name: a2b78
   namespace: mathieu-argo
 spec:
   description: iaac
