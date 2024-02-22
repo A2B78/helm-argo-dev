@@ -5,7 +5,6 @@ metadata:
   namespace: mathieu-argo
 spec:
   destination:
-    namespace: a2b78
     server: https://kubernetes.default.svc
   project: adolfo
   source:
