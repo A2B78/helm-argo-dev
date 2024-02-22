@@ -1,0 +1,10 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: adolfo-dev
+spec:
+  sourceRepos:
+  - git@github.com:A2B78/helm-argo-dev.git
+  - git@github.com:O-clock-Hati/challenge-s15-e06-A2B78.git
+  destinations:
+    server: https://kubernetes.default.svc

@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: adolfo-dev
+spec:
+  destination:
+    name: in-cluster
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: helmdev
+    repoURL: 'git@github.com:A2B78/helm-argo-dev.git'
+    targetRevision: HEAD
+    helm:
+      valueFiles:
+        - values.yaml
+  sources: []
+  project: adolfo-dev
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
