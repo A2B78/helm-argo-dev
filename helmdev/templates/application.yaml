@@ -7,8 +7,8 @@ spec:
     name: in-cluster
     server: 'https://kubernetes.default.svc'
   source:
-    path: helmdev
-    repoURL: 'git@github.com:A2B78/helm-argo-dev.git'
+    path: helchart
+    repoURL: 'git@github.com:O-clock-Hati/challenge-s15-e06-A2B78.git'
     targetRevision: HEAD
     helm:
       valueFiles:
