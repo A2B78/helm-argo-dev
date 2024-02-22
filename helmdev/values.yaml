@@ -2,3 +2,7 @@ dev:
   replicaCount: 1
   configMapName: dev-env-config
   configMapKey: ENV_NAME
+
+image:
+  repository: a2barros78
+  pullPolicy: IfNotPresent
