@@ -2,7 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
   labels:
-  namespace: mathieu-argo
 spec:
   description: iaac
   destinations:
@@ -11,4 +10,5 @@ spec:
       server: 'https://kubernetes.default.svc'
   sourceRepos:
     - 'git@github.com:A2B78/helm-argo-dev.git'
+    - 'git@github.com:O-clock-Hati/challenge-s15-e06-A2B78.git'
 status: {}
