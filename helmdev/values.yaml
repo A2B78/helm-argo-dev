@@ -1,4 +1,4 @@
 replicaCount: 1
 
 dev:
-  configMapName: env-config
+  configMapName: dev-env-config
