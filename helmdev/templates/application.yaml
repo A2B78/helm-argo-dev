@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: a2b78
     server: https://kubernetes.default.svc
-  project: adolfo-d
+  project: adolfo-dev
   source:
     helm:
       valueFiles:
