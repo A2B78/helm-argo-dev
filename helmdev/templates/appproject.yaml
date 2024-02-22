@@ -7,7 +7,7 @@ spec:
   description: iaac
   destinations:
     - name: in-cluster
-      namespace: a2b78
+      namespace: mathieu-argo
       server: 'https://kubernetes.default.svc'
   sourceRepos:
     - 'git@github.com:O-clock-Hati/challenge-s15-e06-A2B78.git'
