@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: a2b78
+  name: {{.Chart.Name }}
   namespace: mathieu-argo
 spec:
   destination:
