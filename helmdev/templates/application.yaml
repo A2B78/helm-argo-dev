@@ -6,7 +6,7 @@ spec:
   destination:
     namespace: mathieu-argo
     server: https://kubernetes.default.svc
-  project: adolfo-dev
+  project: adolfo-{{ .Chart.Name }}
   source:
     helm:
       valueFiles:
