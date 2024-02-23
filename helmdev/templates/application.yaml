@@ -15,10 +15,10 @@ spec:
     path: helmchart-prod
     repoURL: git@github.com:O-clock-Hati/challenge-s15-e06-A2B78.git
     targetRevision: HEAD
-  - ref: values
-    repoURL: git@github.com:O-clock-Hati/challenge-s15-e06-A2B78.git
-    project: helmchart-prod
-    targetRevision: HEAD
+  # - ref: values
+  #   repoURL: git@github.com:O-clock-Hati/challenge-s15-e06-A2B78.git
+  #   project: helmchart-prod
+  #   targetRevision: HEAD
   #   helm:
   #     valueFiles:
   #     - values.yaml
