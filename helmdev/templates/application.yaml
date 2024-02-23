@@ -12,6 +12,12 @@ spec:
     helm:
       valueFiles:
       - values.yaml
+    path: helmchart-dev
+    repoURL: git@github.com:O-clock-Hati/challenge-s15-e06-A2B78.git
+    targetRevision: HEAD
+    helm:
+      valueFiles:
+      - values.yaml
     path: helmchart-prod
     repoURL: git@github.com:O-clock-Hati/challenge-s15-e06-A2B78.git
     targetRevision: HEAD
