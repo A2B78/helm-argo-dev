@@ -1,12 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
+  generateName: adolfo-
   namespace: mathieu-argo
 spec:
   destination:
     namespace: mathieu-argo
     server: https://kubernetes.default.svc
-  project: adolfo-{{ .Values.project }}
+  project: adolfo
   source:
     helm:
       valueFiles:
