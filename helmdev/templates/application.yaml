@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  generateName: adolfo-
+  name: adolfo
   namespace: mathieu-argo
 spec:
   destination:
