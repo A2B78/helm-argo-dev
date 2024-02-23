@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: mathieu-argo
     server: https://kubernetes.default.svc
-  project: adolfo
+  project: adolfo-dev
   source:
     helm:
       valueFiles:
